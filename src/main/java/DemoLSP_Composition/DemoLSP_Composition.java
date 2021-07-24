@@ -1,9 +1,11 @@
+package DemoLSP_Composition;
+
 public class DemoLSP_Composition {
     public static void main(String[] args) {
-        PersonGroup1 personGroup1 = new PersonGroup1(1, "A");
+        PersonGroup1 personGroup1 = new PersonGroup1(1, "A",1);
     }
 }
-//แบบนี้ไม่ Composition แบบ Inheritance
+//แบบนี้ Composition ไม่ใช่แบบ Inheritance
 class PersonGroup1  {
     Person person;
     int group;

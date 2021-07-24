@@ -1,3 +1,5 @@
+package DEmoLSP;
+
 public class DemoLSP {
     public static void main(String[] args) {
         PersonGroup1 personGroup1 = new PersonGroup1(1, "A");
@@ -9,7 +11,7 @@ public class DemoLSP {
         public PersonGroup1(int id, String name, int group_id) {
             super(id, name, group_id);
         }
-        public PersonGroup1(int id, String name {
+        public PersonGroup1(int id, String name ){
             super(id, name, 1);
         }
     }
